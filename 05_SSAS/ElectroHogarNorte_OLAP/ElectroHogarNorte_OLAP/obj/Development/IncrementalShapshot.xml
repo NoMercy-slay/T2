@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ElectroHogarNorte_OLAP</Database>
+    <Server>ROB</Server>
+    <ConnectionString>Data Source=ROB;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>0C8B5JBIeR90ab3wi8yFDnQ9POQ=17/10/2026 7:38:3217/10/2026 7:38:32</TimeStamp>
+        <ID>
+          <String>DS_ElectroHogarNorte_DM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>AweBhY2UG+hlk0/lHP0JdQ0SSgY=23/10/2026 17:30:1417/10/2026 7:40:07</TimeStamp>
+        <ID>
+          <String>DSV_ElectroHogarNorte</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LXLpu8wt6S42WvuftqAWO8Je29A=17/10/2026 8:31:4917/10/2026 7:46:21</TimeStamp>
+        <ID>
+          <String>Dim Usuario</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UcqlewvweZr8kLz9h9G2yuBKM+8=17/10/2026 8:31:4917/10/2026 7:46:21</TimeStamp>
+        <ID>
+          <String>Dim Almacen</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ghNjNw1KWPVcLM3NvHsUbOJ4urE=23/10/2026 17:30:1417/10/2026 7:46:21</TimeStamp>
+        <ID>
+          <String>Dim Fecha</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>okwWnTS2tALq9wxxM7+E6TaY6mY=17/10/2026 8:25:1317/10/2026 7:46:21</TimeStamp>
+        <ID>
+          <String>Dim Producto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>r16+c1LqC2v5/ZQjQ7GubTskKTA=17/10/2026 8:25:1317/10/2026 7:46:21</TimeStamp>
+        <ID>
+          <String>Dim Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>01VwjWrn4fAxyd7wkVGAJ5UxedE=23/10/2026 17:47:0917/10/2026 7:46:21ifAyPs1/GE0A4K6lIC6Oxfqn4PY=17/10/2026 9:16:2417/10/2026 7:46:21</TimeStamp>
+        <ID>
+          <String>CuboVentas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>LmY9MyAm8d0u8sRm+615k5i1t9g=23/10/2026 22:12:0023/10/2026 22:09:18</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>SdYPkI1kj6/SihKmg1FE9WVSyT4=23/10/2026 22:12:0017/10/2026 7:31:56</TimeStamp>
+      <ID>
+        <String>ElectroHogarNorte_OLAP</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-10-24T03:12:07.08Z</LastDeployed>
+</DeploymentSnapshot>
